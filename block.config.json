@@ -4,5 +4,71 @@
   "source": {
     "https": "https://github.com/Digambaran/mini_shield",
     "ssh": "git@github.com:Digambaran/mini_shield.git"
+  },
+  "dependencies": {
+    "shield_signin": {
+      "directory": "shield_signin",
+      "meta": {
+        "name": "shield_signin",
+        "type": "function",
+        "source": {
+          "https": "https://github.com/Digambaran/shield_signin",
+          "ssh": "git@github.com:Digambaran/shield_signin.git"
+        },
+        "language": "nodejs",
+        "start": "node index.js",
+        "build": "",
+        "postPull": "npm i",
+        "standAloneBlock": false
+      }
+    },
+    "google_signin": {
+      "directory": "google_signin",
+      "meta": {
+        "name": "google_signin",
+        "type": "function",
+        "source": {
+          "https": "https://github.com/Digambaran/google_signin",
+          "ssh": "git@github.com:Digambaran/google_signin.git"
+        },
+        "language": "nodejs",
+        "start": "node index.js",
+        "build": "",
+        "postPull": "npm i",
+        "standAloneBlock": false
+      }
+    },
+    "google_signup": {
+      "directory": "google_signup",
+      "meta": {
+        "name": "google_signup",
+        "type": "function",
+        "source": {
+          "https": "https://github.com/Digambaran/google_signup",
+          "ssh": "git@github.com:Digambaran/google_signup.git"
+        },
+        "language": "nodejs",
+        "start": "node index.js",
+        "build": "",
+        "postPull": "npm i",
+        "standAloneBlock": false
+      }
+    },
+    "shield_signup": {
+      "directory": "shield_signup",
+      "meta": {
+        "name": "shield_signup",
+        "type": "function",
+        "source": {
+          "https": "https://github.com/Digambaran/shield_signup",
+          "ssh": "git@github.com:Digambaran/shield_signup.git"
+        },
+        "language": "nodejs",
+        "start": "node index.js",
+        "build": "",
+        "postPull": "npm i",
+        "standAloneBlock": false
+      }
+    }
   }
 }
